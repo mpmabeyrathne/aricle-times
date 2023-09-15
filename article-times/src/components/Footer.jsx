@@ -51,7 +51,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="line">a</div>
     </div>
   );
 };
