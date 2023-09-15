@@ -1,1 +1,1 @@
-# aricle-times
+# article-times
