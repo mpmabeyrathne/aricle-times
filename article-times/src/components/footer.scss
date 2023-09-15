@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  .container {
+    .footer {
+      position: fixed;
+      bottom: 0;
+      
+      .footer-heading {
+        padding: 15px;
+
+        &::after {
+          content: "";
+          display: block;
+          width: 400px;
+          height: 2.5px;
+          background-color: black;
+          margin: 10px auto;
+        }
+        h2 {
+          display: flex;
+          font-size: 25px;
+          align-items: center;
+          justify-content: center;
+        }
+        p {
+          display: flex;
+          justify-content: center;
+          padding: 20px 200px;
+        }
+      }
+
+      .signUp-container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+
+        .signUp-Section {
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+          gap: 10px;
+          justify-content: center;
+          align-items: center;
+
+          .email-section {
+            display: flex;
+            flex-direction: row;
+            gap: 26px;
+          }
+
+          input {
+            border: none;
+            border-radius: 15px;
+            padding: 10px;
+            background-color: #b3afaf;
+            width: 250px;
+          }
+
+          button {
+            width: max-content;
+            padding: 8px 40px;
+            border: none;
+            border-radius: 15px;
+            background-color: aquamarine;
+            color: white;
+            justify-content: center;
+          }
+
+          .footer-icons {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            color: aquamarine;
+          }
+        }
+        .footer-buttons {
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+          justify-content: center;
+          align-items: center;
+
+          button {
+            width: max-content;
+            border: none;
+            background-color: white;
+          }
+        }
+        .footer-logo {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 120px;
+          }
+        }
+      }
+      .line {
+        background-color: #124514;
+        color: #124514;
+        height: 35px;
+      }
+    }
+  }
+}

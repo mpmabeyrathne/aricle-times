@@ -10,6 +10,7 @@ import Viewall from "./pages/Viewall";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Profile from "./pages/Profile";
+import "./components/footer.scss";
 
 const Layout = () => {
   return (
